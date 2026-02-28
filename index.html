@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Tech Panda</title>
+    <style>
+        html {
+            background-color: ghostwhite;
+        }
+
+        body {
+            background-color: inherit;
+            padding-top: 25vh;
+            font-family: monospace;
+            line-height: 160%;
+            font-size: 12pt;
+        }
+
+        h1 {
+            font-size: 16pt;
+            line-height: 160%;
+            vertical-align: middle;
+            align-content: center;
+        }
+
+        h1 img {
+            max-height: 60pt;
+        }
+
+        a {
+            text-align: center;
+            vertical-align: middle;
+            display: inline-block;
+            padding-bottom: 6pt;
+        }
+
+        span {
+            margin-bottom: 10pt;
+            display: block;
+        }
+
+        span img {
+            max-height: 12pt;
+        }
+
+        .text-center {
+            text-align: center;
+            display: block;
+        }
+
+        .paragraph {
+            text-align: justify;
+            padding-left: 25vw;
+            padding-right: 25vw;
+            max-width: 900px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .paragraph-small {
+            font-size: 9pt;
+            line-height: 9pt;
+        }
+
+        hr {
+            border: 0px !important;
+            border-bottom: 1px groove slategray !important;
+            color: slategrey !important;
+            margin-top: 1vh !important;
+            margin-bottom: 1vh !important;
+        }
+
+        spam[role] {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .inverted {
+            color: white !important;
+            background-color: black;
+        }
+
+        tip {
+            font-weight: 300;
+            display: inline-block;
+            width: 100vw;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+        }
+
+        @media (max-width: 999px) {
+            .paragraph {
+                padding-left: 15vw;
+                padding-right: 15vw;
+            }
+
+            body {
+                padding-top: 10vh;
+            }
+        }
+
+        @media (max-width: 699px) {
+            .paragraph {
+                padding-left: 10vw;
+                padding-right: 10vw;
+            }
+
+            body {
+                padding-top: 5vh;
+            }
+        }
+
+        @media (max-width: 599px) {
+            .paragraph {
+                padding-left: 3vw;
+                padding-right: 3vw;
+            }
+
+            body {
+                padding-top: 1vh;
+            }
+        }
+    </style>
+
+    <meta name="description" content="The Tech Panda is a tech consulting business." />
+    <meta name="keywords" content="software development golang engineering nerd tech Australia Sydney" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="canonical" href="https://thetechpanda.com.au/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Tech Panda | a tech consulting business" />
+    <meta property="og:description" content="The Tech Panda is a tech consulting business." />
+    <meta property="og:url" content="https://thetechpanda.com.au/" />
+    <meta property="og:site_name" content="The Tech Panda" />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:image" content="https://thetechpanda.com.au/assets/og-image.png" />
+    <meta property="og:image:alt" content="The Tech Panda" />
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+        {
+            "@type": "Organization",
+            "name": "The Tech Panda",
+            "url": "https://thetechpanda.com.au/",
+            "logo": "https://thetechpanda.com.au/assets/logo.png",
+            "description": "a Sydney based tech consulting business.",
+            "sameAs": []
+        },
+        {
+            "@type": "WebPage",
+            "name": "The Tech Panda",
+            "url": "https://thetechpanda.com.au/",
+            "inLanguage": "en-AU",
+            "description": "a Sydney based tech consulting business.",
+            "publisher": {
+            "@type": "Organization",
+            "name": "The Tech Panda",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://thetechpanda.com.au/assets/logo.png"
+            }
+            }
+        }
+        ]
+    }
+    </script>
+
+    <script src="js/garbage.js"></script>
+</head>
+<bod>
+    <h1 class="text-center">
+        <img class="logo" src="images/logo.png" /><br />THE TECH PANDA
+    </h1>
+    <div class="paragraph">
+        <hr />
+        <span>
+            I believe that nowadays there's a shortage of old style, all rounder technicians able to face the ever
+            changing world of technology,
+            and that's exactly the kind of tech I aim to be.
+        </span>
+       
+        <span class="text-center">
+            🇦🇺 Sydney, NSW, Australia
+            <br />
+            <br />
+            <img class="github" src="images/github.png" /> <a
+                href="https://github.com/thetechpanda">github.com/thetechpanda</a>
+        </span>
+        <hr />
+    </div>
+    <div class="paragraph paragraph-small">
+        <span class="text-center">
+            ABN: <spam role="abn">{abn}</spam>,
+            EMAIL: <spam role="email">{email}</spam>
+        </span>
+    </div>
+    <h7 class="text-center paragraph-small">just a tech consulting business</h7>
+    </body>
+</html>
